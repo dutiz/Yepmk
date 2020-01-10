@@ -1,5 +1,5 @@
 <div class="container">
     <div class="col-6">
-        Hey
+        Menu
     </div>
 </div>
