@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container mb-48">
     <div class="row mt-24">
         <div class="col-6">
             <h1 class="text-5xl text-purple-500 font-bold">Long Term Goal</h1>
@@ -42,23 +42,29 @@
     </div>
 </div>
 
-<div style="background: url('/assets/images/members-bg.png') no-repeat center center / cover;" >
+<div style="background: url('/assets/images/members-bg.png') no-repeat center center / cover;">
     <div class="container">
         <div class="row justify-end">
-            <div class="col-4 p-10 my-32 bg-purple-500">
-                <h2 class="font-bold text-3xl text-yellow-500">
-                    Our Members
-                </h2>
-                <p class="font-medium text-sm text-white">
-                    YEP’s active members consist of more than 30 youth, mainly between the ages of 14 and 18. There are
-                    also some more experienced members, between the ages of 23 and 29. Our members are passionate about
-                    serving their communities, learning from each other, and building their experiences. While the
-                    president is available to guide and mentor YEP members, it’s the members who take the lead on
-                    projects. Members meet once a week to discuss the projects they’d like to design and implement, and
-                    the president is there to facilitate the meetings and provide any support they may need. The task of
-                    the president is to act as a moderator during the meeting, and never as a lawgiver. This ensures
-                    that the members are actively involved during the discussions at the meetings.
-                </p>
+            <div class="col-4 my-32">
+                <div class="bg-purple-500 rounded-xl p-10">
+                    <h2 class="font-bold text-3xl text-yellow-500">
+                        Our Members
+                    </h2>
+                    <p class="font-medium text-sm text-white text-justify">
+                        YEP’s active members consist of more than 30 youth, mainly between the ages of 14 and 18. There
+                        are
+                        also some more experienced members, between the ages of 23 and 29. Our members are passionate
+                        about
+                        serving their communities, learning from each other, and building their experiences. While the
+                        president is available to guide and mentor YEP members, it’s the members who take the lead on
+                        projects. Members meet once a week to discuss the projects they’d like to design and implement,
+                        and
+                        the president is there to facilitate the meetings and provide any support they may need. The
+                        task of
+                        the president is to act as a moderator during the meeting, and never as a lawgiver. This ensures
+                        that the members are actively involved during the discussions at the meetings.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

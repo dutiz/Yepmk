@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      borderRadius: {
+        'xl': '0.75rem'
+      }
+    }
   },
   variants: {},
   corePlugins: {
