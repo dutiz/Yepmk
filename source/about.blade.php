@@ -42,10 +42,10 @@
     </div>
 </div>
 
-<div style="background: url(/assets/images/members-bg.png) no-repeat center center / cover">
+<div style="background: url('/assets/images/members-bg.png') no-repeat center center / cover;" >
     <div class="container">
         <div class="row justify-end">
-            <div class="col-4 p-10 my-32 bg-purple-500 ">
+            <div class="col-4 p-10 my-32 bg-purple-500">
                 <h2 class="font-bold text-3xl text-yellow-500">
                     Our Members
                 </h2>
