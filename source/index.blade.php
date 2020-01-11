@@ -7,7 +7,7 @@
         <div class="lg:col-5 pt-32">
             <h1 class="text-5xl text-purple-500 font-bold">Empowering the youth</h1>
             <p class="mt-4 text-sm">Learn more about our cause.</p>
-            <a href="/about" class=" inline-block mt-8 rounded bg-purple-400 text-base px-6 py-3">Learn More</a>
+            <a href="/about" class=" inline-block mt-8 rounded-lg bg-purple-400 text-base text-white px-6 py-3">Learn More</a>
         </div>
         Image
     </div>
@@ -44,7 +44,7 @@
 </div>
 <div class="container ">
 
-    <div class="flex mb-48 mt-20 mx-48 text-center bg-purple-500 py-8 rounded-lg ">
+    <div class="flex mb-48 mt-20 mx-48 text-center bg-purple-500 py-8 rounded-xl ">
         <div class="col-3 ">
             <h2 class="text-white font-bold text-6xl ">20</h2>
             <p class="text-xs text-yellow-500 font-medium">projects completed</p>
