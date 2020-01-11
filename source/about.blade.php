@@ -24,6 +24,17 @@
         <div class="col-6">
             <h1 class="text-5xl text-purple-500 font-bold">Long Term Goal</h1>
             <p class="my-6 font-medium text-base">The Youth Empowerment Platform’s long-term goals include:</p>
+            <p class="font-medium text-sm mt-6">
+                Inspiring young people to take an active role in their futures, and teaching them that their voices are
+                strong and vital to the decision-making process; and
+            </p>
+            <img src="/assets/images/tick.png" alt="">
+            <p class="font-medium text-sm mt-6">
+                Supporting the youth group with their leadership skills, strengthening their civic engagement, and
+                ensuring they have the proper skills to thrive in their futures—not only will this aid young people in
+                becoming leaders in their communities, but also inspire their peers to be more active members of
+                society.
+            </p>
         </div>
         <div class="col-6">
             <h1 class="text-5xl text-purple-500 font-bold">Our Impact</h1>
@@ -69,4 +80,25 @@
         </div>
     </div>
 </div>
+<div class="mt-48 container">
+    <h1 class="text-purple-500 font-bold text-5xl text-center">Our Sponsors</h1>
+</div>
+<div class="container">
+
+    <div class="lg: row mb-48 mt-20 justify-between">
+        <div class="col-1 ">
+            <img src="/assets/images/komuna.png" alt="komuna">
+        </div>
+        <div class="col-2 ">
+            <img src="/assets/images/usembskopje.png" alt="usembskopje">
+        </div>
+        <div class="col-3 ">
+            <img src="/assets/images/peacecorps.png" alt="peacecorps">
+        </div>
+        <div class="col-5 ">
+            <img src="/assets/images/usaid.png" alt="usaid">
+        </div>
+    </div>
+</div>
+
 @endsection
