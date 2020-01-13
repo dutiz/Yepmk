@@ -28,7 +28,46 @@
             </p>
             <h2 class="mt-8 mb-4 font-medium text-2xl text-purple-500">Donators</h2>
             <p class="font-medium text-base text-gray-500">European Union, UNDP, Municipality of Gostivar</p>
+            <div class="row py-8">
+                <div class="col-5">
+                    <h2 class="font-medium text-2xl text-purple-500">Project start</h2>
+                    <p class="pt-4 font-medium text-base text-gray-500">20 september 2019</p>
+                </div>
+                <div class="col-5">
+                    <h2 class="font-medium text-2xl text-purple-500">Project end</h2>
+                    <p class="pt-4 font-medium text-base text-gray-500">20 september 2019</p>
+
+                </div>
+            </div>
+            <h2 class="font-medium text-2xl text-purple-500">
+                Tags
+            </h2>
+            <div class="row pt-8 justify center">
+                <div class="col-3">
+                    <div class="bg-yellow-300 rounded-lg flex flex-col lg:text-center px-3 py-1">
+                        <div class="flex flex-col text-center">
+                            <p class="text-xs text-yellow-500 font-medium">YOUTH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="bg-yellow-300 rounded-lg flex flex-col lg:text-center px-3 py-1">
+                        <div class="flex flex-col text-center">
+                            <p class="text-xs text-yellow-500 font-medium">EMPOYABILITY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-yellow-300 rounded-lg flex flex-col lg:text-center px-3 py-1">
+                        <div class="flex flex-col text-center">
+                            <p class="text-xs text-yellow-500 font-medium">NETWORK</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
         <div class="col-7 flex flex-col items-end">
             <img src="/assets/images/techathon-img1.png" alt="img1">
             <img class="py-8" src="/assets/images/techathon-img2.png" alt="img2">
