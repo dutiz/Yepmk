@@ -28,17 +28,33 @@
                 Inspiring young people to take an active role in their futures, and teaching them that their voices are
                 strong and vital to the decision-making process; and
             </p>
-            <img src="/assets/images/tick.png" alt="">
-            <p class="font-medium text-sm mt-6 text-justify">
-                Supporting the youth group with their leadership skills, strengthening their civic engagement, and
-                ensuring they have the proper skills to thrive in their futures—not only will this aid young people in
-                becoming leaders in their communities, but also inspire their peers to be more active members of
-                society.
-            </p>
+            <div class="py-6 flex flex-row items-start">
+                <img src="/assets/images/tick.png" alt="">
+                <p class="px-2 font-medium text-sm text-justify">
+                    Supporting the youth group with their leadership skills, strengthening their civic engagement, and
+                    ensuring they have the proper skills to thrive in their futures—not only will this aid young people
+                    in
+                    becoming leaders in their communities, but also inspire their peers to be more active members of
+                    society.
+                </p>
+            </div>
+            <img class="px-8" src="/assets/images/line.png" alt="">
+            <div class="flex flex-row items-start py-6">
+                <img src="/assets/images/tick.png" alt="">
+                <p class="px-2 font-medium text-sm text-justify">
+                    Supporting the youth group with their leadership skills, strengthening their civic engagement, and
+                    ensuring they have the proper skills to thrive in their futures—not only will this aid young people
+                    in
+                    becoming leaders in their communities, but also inspire their peers to be more active members of
+                    society.
+                </p>
+            </div>
+            <img class="px-8" src="/assets/images/line.png" alt="">
         </div>
         <div class="col-6">
             <h1 class="text-5xl text-purple-500 font-bold">Our Impact</h1>
-            <p class="my-6 font-medium text-base text-justify">The Youth Empowerment Platform has been active for four years, and
+            <p class="my-6 font-medium text-base text-justify">The Youth Empowerment Platform has been active for four
+                years, and
                 during this time, more than 50 activists have supported the mission and goals. Currently, there are nine
                 different programs/projects our members participate in or lead. These programs include the following:
                 Say It, TechUp, Film It, YEP Talks, My Future, Techathon, Gostronic, and My City, My Pride. Through
