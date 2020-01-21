@@ -1,4 +1,4 @@
-<div style="background: url('/assets/images/footer-bg.png') no-repeat center center / cover;">
+<div class="bg-no-repeat bg-cover" style="background-image: url('/assets/images/footer-bg.png'); min-height: 460px;">
     <div class="container pt-56 pb-10">
         <div class="flex flex-col items-center">
             <h2 class="text-center text-white font-bold text-3xl px-48">Are you determined and passionate about youth

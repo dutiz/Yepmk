@@ -8,7 +8,7 @@
             <a class="mr-8" href="/about">About Us</a>
             <a class="mr-8" href="/projects">Projects</a>
             <a class="mr-8" href="/join">Join Us</a>
-            <a href="contact">Contact Us</a>
+            <a href="/contact">Contact Us</a>
         </div>
     </div>
 </div>

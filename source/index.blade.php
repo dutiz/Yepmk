@@ -18,7 +18,7 @@
     <div class="row justify-center mb-10 mt-20 lg:mt-40">
         <div class="lg:col-8">
             <h1 class="text-purple-500 font-bold text-2xl lg:text-5xl text-center">
-                Empowering today's youth, 
+                Empowering today's youth,
                 building tomorow leaders !
             </h1>
         </div>
@@ -43,8 +43,8 @@
     </div>
 </div>
 {{-- IMPACTS --}}
-<div style="background: url('/assets/images/impact-bg.png') no-repeat center center / cover;">
-    <div class="container pt-48">
+<div class="bg-cover bg-no-repeat" style="background-image: url('/assets/images/impact-bg.png'); min-height: 720px;">
+    <div class="container py-48">
         <div class="row justify-center">
             <div class="lg:col-4 text-center">
                 <h1 class="text-purple-500 font-bold text-5xl">Our Impact</h1>
@@ -53,8 +53,7 @@
                 </p>
             </div>
         </div>
-    </div>
-    <div class="container pb-48">
+
         <div class="row justify-center">
             <div class="col-8 mt-20">
                 <div class="bg-purple-500 rounded-xl flex flex-col lg:flex-row justify-between items-center px-6 py-4">

@@ -38,7 +38,7 @@
                     society.
                 </p>
             </div>
-            <img class="px-8" src="/assets/images/line.png" alt="">
+            <div style="width: 164px; height: 1px;" class="bg-yellow-500 ml-8"></div>
             <div class="flex flex-row items-start py-6">
                 <img src="/assets/images/tick.png" alt="">
                 <p class="px-2 font-medium text-sm text-justify">
@@ -49,7 +49,7 @@
                     society.
                 </p>
             </div>
-            <img class="px-8" src="/assets/images/line.png" alt="">
+            <div style="width: 164px; height: 1px;" class="bg-yellow-500 ml-8"></div>
         </div>
         <div class="col-6">
             <h1 class="text-5xl text-purple-500 font-bold">Our Impact</h1>
@@ -100,19 +100,12 @@
     <h1 class="text-purple-500 font-bold text-5xl text-center">Our Sponsors</h1>
 </div>
 <div class="container">
-
-    <div class="lg: row mb-48 mt-20 justify-between">
-        <div class="col-1 ">
-            <img src="/assets/images/komuna.png" alt="komuna">
-        </div>
-        <div class="col-2 ">
-            <img src="/assets/images/usembskopje.png" alt="usembskopje">
-        </div>
-        <div class="col-3 ">
-            <img src="/assets/images/peacecorps.png" alt="peacecorps">
-        </div>
-        <div class="col-5 ">
-            <img src="/assets/images/usaid.png" alt="usaid">
+    <div class="row mb-48 mt-20">
+        <div class="col-12 flex flex-col lg:flex-row justify-between">
+            @foreach ($page->sponsors as $sponsor)
+            <img src="{{ $sponsor->image }}" class="lg:w-auto lg:h-24 w-56 h-auto object-cover"
+                alt="{{ $sponsor->alt }}">
+            @endforeach
         </div>
     </div>
 </div>
