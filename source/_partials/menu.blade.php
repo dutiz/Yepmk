@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row justify-between m-8 text-base tex-black ">
         <div class="col-4">
-            <img src="/assets/images/logo.png" alt="">
+            <img src="/assets/images/logo.png" width="102.33px" height="58.27px" alt="">
         </div>
         <div class="col-5 flex flex-row items-center justify-end">
             <a class="mr-8" href="/">Home</a>
