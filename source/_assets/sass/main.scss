@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.md-content p {
+    @apply font-medium text-base text-justify;
+}

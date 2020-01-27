@@ -1,15 +1,16 @@
 <div class="bg-no-repeat bg-cover" style="background-image: url('/assets/images/footer-bg.png'); min-height: 460px;">
-    <div class="container pt-56 pb-10">
+    <div class="container pt-64 pb-10">
         <div class="flex flex-col items-center">
-            <h2 class="text-center text-white font-bold text-3xl px-48">Are you determined and passionate about youth
-                projects and volunteering?</h2>
+            <h2 class="text-center text-white font-bold text-3xl px-48">
+                Are you determined and passionate about youth projects and volunteering?
+            </h2>
             <a href="/contact" class=" inline-block mt-8 rounded bg-yellow-500 text-base px-6 py-3 text-white ">Join
                 Us</a>
         </div>
     </div>
 </div>
 
-<div class="bg-purple-500">
+<div class="bg-purple-300">
     <div class="container">
         <div class="row mb-4 text-base text-white pt-20">
             <div class="col-4">

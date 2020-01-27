@@ -2,15 +2,17 @@
 
 @section('body')
 {{-- Header--}}
-<div class="container">
+<div class="container mt-16">
     <div class="row items-center">
-        <div class="lg:col-5 pt-32">
+        <div class="lg:col-4">
             <h1 class="text-5xl text-purple-500 font-bold">Empowering the youth</h1>
             <p class="mt-4 text-sm">Learn more about our cause.</p>
             <a href="/about" class=" inline-block mt-8 rounded-lg bg-purple-400 text-base text-white px-6 py-3">Learn
                 More</a>
         </div>
-        Image
+        <div class="col-7 offset-1">
+            @include('_partials.home-svg')
+        </div>
     </div>
 </div>
 {{-- Icons --}}
@@ -43,8 +45,8 @@
     </div>
 </div>
 {{-- IMPACTS --}}
-<div class="bg-cover bg-no-repeat" style="background-image: url('/assets/images/impact-bg.png'); min-height: 720px;">
-    <div class="container py-48">
+<div style="background: url('/assets/images/impact-bg.png') no-repeat center center; background-size: cover;">
+    <div class="container py-64">
         <div class="row justify-center">
             <div class="lg:col-4 text-center">
                 <h1 class="text-purple-500 font-bold text-5xl">Our Impact</h1>

@@ -21,5 +21,10 @@ return [
             'alt' => 'USAID',
         ],
     ],
-    'collections' => [],
+    'collections' => [
+        'projects' => [
+            'path' => 'projects/{filename}',
+            'extends' => '_layouts.project',
+        ],
+    ],
 ];

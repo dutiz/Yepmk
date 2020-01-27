@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
-<body class="antialiased">
+<body class="antialiased font-sans text-black">
     <div id="app">
-        @include('_partials.menu')    
+        @include('_partials.menu')
 
         @yield('body')
-        
+
     </div>
 
     <footer>

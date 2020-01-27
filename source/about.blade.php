@@ -2,9 +2,9 @@
 
 @section('body')
 
-<div class="container">
+<div class="container mt-20">
     <div class="row items-center">
-        <div class="lg:col-4 pt-32">
+        <div class="lg:col-4">
             <h1 class="text-5xl text-purple-500 font-bold">A few words about us</h1>
             <p class="lg:mt-4 text-sm text-medium">
                 Youth Empowerment Platform (YEP) is a youth-orientated non-governmental
@@ -13,13 +13,12 @@
                 YEP was founded on April 24, 2015 by a group of enthusiastic young people who believe in amplifying the
                 voices of young people and serving their communities. </p>
         </div>
-        <div class="col-7">
-
-            Image
+        <div class="offset-1 col-7">
+            @include('_partials.about-svg')
         </div>
     </div>
 </div>
-<div class="container mb-48">
+<div class="container mt-40 mb-48">
     <div class="row mt-24">
         <div class="col-6">
             <h1 class="text-5xl text-purple-500 font-bold">Long Term Goal</h1>
@@ -29,8 +28,17 @@
                 strong and vital to the decision-making process; and
             </p>
             <div class="py-6 flex flex-row items-start">
-                <img src="/assets/images/tick.png" alt="">
-                <p class="px-2 font-medium text-sm text-justify">
+                <div>
+                    <svg class="block fill-current w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <defs />
+                        <path
+                            d="M12 3.429a8.572 8.572 0 10.001 17.144A8.572 8.572 0 0012 3.429zm0 15.688a7.119 7.119 0 010-14.234 7.119 7.119 0 010 14.234z" />
+                        <path
+                            d="M15.578 8.958h-.897a.61.61 0 00-.496.254l-3.008 4.171-1.362-1.89a.612.612 0 00-.496-.255h-.897a.154.154 0 00-.124.244l2.384 3.306a.608.608 0 00.989 0L15.7 9.2a.152.152 0 00-.123-.243z" />
+                    </svg>
+                </div>
+                <p class="ml-2 font-medium text-sm text-justify text-gray-500">
                     Supporting the youth group with their leadership skills, strengthening their civic engagement, and
                     ensuring they have the proper skills to thrive in their futures—not only will this aid young people
                     in
@@ -40,8 +48,17 @@
             </div>
             <div style="width: 164px; height: 1px;" class="bg-yellow-500 ml-8"></div>
             <div class="flex flex-row items-start py-6">
-                <img src="/assets/images/tick.png" alt="">
-                <p class="px-2 font-medium text-sm text-justify">
+                <div>
+                    <svg class="block fill-current w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <defs />
+                        <path
+                            d="M12 3.429a8.572 8.572 0 10.001 17.144A8.572 8.572 0 0012 3.429zm0 15.688a7.119 7.119 0 010-14.234 7.119 7.119 0 010 14.234z" />
+                        <path
+                            d="M15.578 8.958h-.897a.61.61 0 00-.496.254l-3.008 4.171-1.362-1.89a.612.612 0 00-.496-.255h-.897a.154.154 0 00-.124.244l2.384 3.306a.608.608 0 00.989 0L15.7 9.2a.152.152 0 00-.123-.243z" />
+                    </svg>
+                </div>
+                <p class="px-2 font-medium text-sm text-justify text-gray-500">
                     Supporting the youth group with their leadership skills, strengthening their civic engagement, and
                     ensuring they have the proper skills to thrive in their futures—not only will this aid young people
                     in
@@ -109,5 +126,5 @@
         </div>
     </div>
 </div>
- n
+n
 @endsection

@@ -6,10 +6,9 @@
     <div class="row items-center mb-20">
         <div class="lg:col-4 ">
             <h1 class="text-6xl text-purple-500 font-bold">Feel free to contact us</h1>
-
         </div>
-        <div class="col-8 flex justify-end">
-            <img src="/assets/images/contact-img.png" alt="">
+        <div class="col-7 offset-1">
+            @include('_partials/contact-svg')
         </div>
     </div>
 </div>
@@ -46,12 +45,15 @@
                     <input
                         class="mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
                         type="text" placeholder="Name" name="name" />
-                    <input class="mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4" type="text"
-                        placeholder="Subject" name="subject" />
-                    <input class="mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4" type="text"
-                        placeholder="E-Mail" name="email" />
-                    <textarea class="mb-6 bg-purple-400 text-purple-500 placeholder-purple-500 font-medium text-xs py-4 pl-4" name="subject"
-                        placeholder="Message"></textarea>
+                    <input
+                        class="mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                        type="text" placeholder="Subject" name="subject" />
+                    <input
+                        class="mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                        type="text" placeholder="E-Mail" name="email" />
+                    <textarea
+                        class="mb-6 bg-purple-400 text-purple-500 placeholder-purple-500 font-medium text-xs py-4 pl-4"
+                        name="subject" placeholder="Message"></textarea>
                     <button type="submit" value="submit"
                         class="mb-16 px-8 py-4 inline-block placeholder-purple-500 bg-yellow-500 text-base text-black">Send
                         Message</button>
