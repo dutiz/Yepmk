@@ -40,19 +40,23 @@ return [
     ],
     'sponsors' => [
         [
-            'image' => '/assets/images/komuna.svg',
+            'image' => '/assets/images/sponsors/komuna.jpg',
+            'image_lg' => '/assets/images/sponsors/komuna@2x.jpg',
             'alt' => 'Komuna e Gostivarit',
         ],
         [
-            'image' => '/assets/images/usembskopje.svg',
+            'image' => '/assets/images/sponsors/usembskopje.jpg',
+            'image_lg' => '/assets/images/sponsors/usembskopje@2x.jpg',
             'alt' => 'US Embassy Skopje',
         ],
         [
-            'image' => '/assets/images/peacecorps.svg',
+            'image' => '/assets/images/sponsors/peacecorps.jpg',
+            'image_lg' => '/assets/images/sponsors/peacecorps@2x.jpg',
             'alt' => 'Peace Corps',
         ],
         [
-            'image' => '/assets/images/usaid.svg',
+            'image' => '/assets/images/sponsors/usaid.jpg',
+            'image_lg' => '/assets/images/sponsors/usaid@2x.jpg',
             'alt' => 'USAID',
         ],
     ],

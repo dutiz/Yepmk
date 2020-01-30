@@ -4,8 +4,8 @@
 
 <div class="container mt-20">
     <div class="row items-center">
-        <div class="lg:col-4">
-            <h1 class="text-5xl text-purple-500 font-bold">A few words about us</h1>
+        <div class="md:col-6 lg:col-4">
+            <h1 class="text-2xl lg:text-5xl text-purple-500 font-bold">A few words about us</h1>
             <p class="lg:mt-4 text-sm text-medium">
                 Youth Empowerment Platform (YEP) is a youth-orientated non-governmental
                 organization, located in Gostivar.<br>
@@ -13,15 +13,15 @@
                 YEP was founded on April 24, 2015 by a group of enthusiastic young people who believe in amplifying the
                 voices of young people and serving their communities. </p>
         </div>
-        <div class="offset-1 col-7">
+        <div class="order-first mb-10 col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
             @include('_partials.about-svg')
         </div>
     </div>
 </div>
 <div class="container mt-40 mb-48">
     <div class="row mt-24">
-        <div class="col-6">
-            <h1 class="text-5xl text-purple-500 font-bold">Long Term Goal</h1>
+        <div class="col-12 md:col-6">
+            <h1 class="text-2xl lg:text-5xl text-purple-500 font-bold">Long Term Goal</h1>
             <p class="my-6 font-medium text-base">The Youth Empowerment Platform’s long-term goals include:</p>
             <p class="font-medium text-sm mt-6">
                 Inspiring young people to take an active role in their futures, and teaching them that their voices are
@@ -68,8 +68,8 @@
             </div>
             <div style="width: 164px; height: 1px;" class="bg-yellow-500 ml-8"></div>
         </div>
-        <div class="col-6">
-            <h1 class="text-5xl text-purple-500 font-bold">Our Impact</h1>
+        <div class="col-12 mt-10 md:mt-0 md:col-6">
+            <h1 class="text-2xl lg:text-5xl text-purple-500 font-bold">Our Impact</h1>
             <p class="my-6 font-medium text-base text-justify">The Youth Empowerment Platform has been active for four
                 years, and
                 during this time, more than 50 activists have supported the mission and goals. Currently, there are nine
@@ -89,7 +89,7 @@
 <div style="background: url('/assets/images/members-bg.png') no-repeat center center / cover;">
     <div class="container">
         <div class="row justify-end">
-            <div class="col-4 my-32">
+            <div class="col-12 md:col-6 lg:col-4 my-32">
                 <div class="bg-purple-500 rounded-xl p-10">
                     <h2 class="font-bold text-3xl text-yellow-500">
                         Our Members
@@ -117,14 +117,13 @@
     <h1 class="text-purple-500 font-bold text-5xl text-center">Our Sponsors</h1>
 </div>
 <div class="container">
-    <div class="row mb-48 mt-20">
-        <div class="col-12 flex flex-col lg:flex-row justify-between">
-            @foreach ($page->sponsors as $sponsor)
-            <img src="{{ $sponsor->image }}" class="lg:w-auto lg:h-24 w-56 h-auto object-cover"
+    <div class="row justify-center mb-48 mt-20">
+        @foreach ($page->sponsors as $sponsor)
+        <div class="col-8 md:col-6 lg:col-3">
+            <img src="{{ $sponsor->image }}" srcset="{{ $sponsor->image_lg }}" class="w-full h-auto"
                 alt="{{ $sponsor->alt }}">
-            @endforeach
         </div>
+        @endforeach
     </div>
 </div>
-n
 @endsection
