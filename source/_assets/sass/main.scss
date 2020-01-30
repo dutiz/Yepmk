@@ -7,3 +7,7 @@
 .md-content p {
     @apply font-medium text-base text-justify;
 }
+
+.transition {
+    transition: all 0.15s ease;
+}

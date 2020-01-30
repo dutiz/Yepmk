@@ -24,7 +24,7 @@
         <div class="col-4 mt-8">
             <a href="{{ $project->getUrl() }}">
                 <div style="border-radius: 25px; min-height: 392px; background-image: url('{{ $project->cover }}')"
-                    class="bg-cover bg-center bg-no-repeat overflow-hidden flex items-end">
+                    class="transition bg-cover bg-center bg-no-repeat overflow-hidden flex items-end hover:shadow-outline">
                     <div style="background: rgba(71, 50, 136, 0.9)" class="w-full p-8">
                         <h1 class="font-bold text-2xl text-yellow-500">{{ $project->title }}</h1>
                         <p class="font-medium text-white">
