@@ -563,7 +563,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -734,6 +734,10 @@ video {
   background-color: #3E3E3E;
 }
 
+.bg-purple-100 {
+  background-color: #E4D9F9;
+}
+
 .bg-purple-300 {
   background-color: #372B7D;
 }
@@ -774,6 +778,10 @@ video {
   background-color: #3E3E3E;
 }
 
+.hover\:bg-purple-100:hover {
+  background-color: #E4D9F9;
+}
+
 .hover\:bg-purple-300:hover {
   background-color: #372B7D;
 }
@@ -812,6 +820,10 @@ video {
 
 .focus\:bg-gray-900:focus {
   background-color: #3E3E3E;
+}
+
+.focus\:bg-purple-100:focus {
+  background-color: #E4D9F9;
 }
 
 .focus\:bg-purple-300:focus {
@@ -934,6 +946,10 @@ video {
   border-color: #3E3E3E;
 }
 
+.border-purple-100 {
+  border-color: #E4D9F9;
+}
+
 .border-purple-300 {
   border-color: #372B7D;
 }
@@ -974,6 +990,10 @@ video {
   border-color: #3E3E3E;
 }
 
+.hover\:border-purple-100:hover {
+  border-color: #E4D9F9;
+}
+
 .hover\:border-purple-300:hover {
   border-color: #372B7D;
 }
@@ -1012,6 +1032,10 @@ video {
 
 .focus\:border-gray-900:focus {
   border-color: #3E3E3E;
+}
+
+.focus\:border-purple-100:focus {
+  border-color: #E4D9F9;
 }
 
 .focus\:border-purple-300:focus {
@@ -1717,15 +1741,7 @@ video {
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Archivo, -apple-system, BlinkMacSystemFont;
 }
 
 .font-hairline {
@@ -5184,6 +5200,26 @@ video {
   color: #3E3E3E;
 }
 
+.placeholder-purple-100::-webkit-input-placeholder {
+  color: #E4D9F9;
+}
+
+.placeholder-purple-100::-moz-placeholder {
+  color: #E4D9F9;
+}
+
+.placeholder-purple-100:-ms-input-placeholder {
+  color: #E4D9F9;
+}
+
+.placeholder-purple-100::-ms-input-placeholder {
+  color: #E4D9F9;
+}
+
+.placeholder-purple-100::placeholder {
+  color: #E4D9F9;
+}
+
 .placeholder-purple-300::-webkit-input-placeholder {
   color: #372B7D;
 }
@@ -5382,6 +5418,26 @@ video {
 
 .focus\:placeholder-gray-900:focus::placeholder {
   color: #3E3E3E;
+}
+
+.focus\:placeholder-purple-100:focus::-webkit-input-placeholder {
+  color: #E4D9F9;
+}
+
+.focus\:placeholder-purple-100:focus::-moz-placeholder {
+  color: #E4D9F9;
+}
+
+.focus\:placeholder-purple-100:focus:-ms-input-placeholder {
+  color: #E4D9F9;
+}
+
+.focus\:placeholder-purple-100:focus::-ms-input-placeholder {
+  color: #E4D9F9;
+}
+
+.focus\:placeholder-purple-100:focus::placeholder {
+  color: #E4D9F9;
 }
 
 .focus\:placeholder-purple-300:focus::-webkit-input-placeholder {
@@ -5743,6 +5799,10 @@ video {
   color: #3E3E3E;
 }
 
+.text-purple-100 {
+  color: #E4D9F9;
+}
+
 .text-purple-300 {
   color: #372B7D;
 }
@@ -5783,6 +5843,10 @@ video {
   color: #3E3E3E;
 }
 
+.hover\:text-purple-100:hover {
+  color: #E4D9F9;
+}
+
 .hover\:text-purple-300:hover {
   color: #372B7D;
 }
@@ -5821,6 +5885,10 @@ video {
 
 .focus\:text-gray-900:focus {
   color: #3E3E3E;
+}
+
+.focus\:text-purple-100:focus {
+  color: #E4D9F9;
 }
 
 .focus\:text-purple-300:focus {
@@ -6597,6 +6665,23 @@ video {
   margin-left: 91.66666666666667%;
 }
 
+body h1::-moz-selection, body h2::-moz-selection, body h3::-moz-selection, body h4::-moz-selection, body h5::-moz-selection, body h6::-moz-selection {
+  background-color: #FCA80F;
+  color: #fff;
+  text-shadow: 5px 2px #473288;
+}
+
+body h1::selection,
+body h2::selection,
+body h3::selection,
+body h4::selection,
+body h5::selection,
+body h6::selection {
+  background-color: #FCA80F;
+  color: #fff;
+  text-shadow: 5px 2px #473288;
+}
+
 .md-content p {
   font-weight: 500;
   font-size: 1rem;
@@ -6604,8 +6689,8 @@ video {
 }
 
 .transition {
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
 }
 
 @media (min-width: 640px) {
@@ -6693,6 +6778,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .sm\:bg-purple-100 {
+    background-color: #E4D9F9;
+  }
+
   .sm\:bg-purple-300 {
     background-color: #372B7D;
   }
@@ -6733,6 +6822,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .sm\:hover\:bg-purple-100:hover {
+    background-color: #E4D9F9;
+  }
+
   .sm\:hover\:bg-purple-300:hover {
     background-color: #372B7D;
   }
@@ -6771,6 +6864,10 @@ video {
 
   .sm\:focus\:bg-gray-900:focus {
     background-color: #3E3E3E;
+  }
+
+  .sm\:focus\:bg-purple-100:focus {
+    background-color: #E4D9F9;
   }
 
   .sm\:focus\:bg-purple-300:focus {
@@ -6893,6 +6990,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .sm\:border-purple-100 {
+    border-color: #E4D9F9;
+  }
+
   .sm\:border-purple-300 {
     border-color: #372B7D;
   }
@@ -6933,6 +7034,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .sm\:hover\:border-purple-100:hover {
+    border-color: #E4D9F9;
+  }
+
   .sm\:hover\:border-purple-300:hover {
     border-color: #372B7D;
   }
@@ -6971,6 +7076,10 @@ video {
 
   .sm\:focus\:border-gray-900:focus {
     border-color: #3E3E3E;
+  }
+
+  .sm\:focus\:border-purple-100:focus {
+    border-color: #E4D9F9;
   }
 
   .sm\:focus\:border-purple-300:focus {
@@ -7676,15 +7785,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Archivo, -apple-system, BlinkMacSystemFont;
   }
 
   .sm\:font-hairline {
@@ -11143,6 +11244,26 @@ video {
     color: #3E3E3E;
   }
 
+  .sm\:placeholder-purple-100::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:placeholder-purple-100::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:placeholder-purple-100:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:placeholder-purple-100::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:placeholder-purple-100::placeholder {
+    color: #E4D9F9;
+  }
+
   .sm\:placeholder-purple-300::-webkit-input-placeholder {
     color: #372B7D;
   }
@@ -11341,6 +11462,26 @@ video {
 
   .sm\:focus\:placeholder-gray-900:focus::placeholder {
     color: #3E3E3E;
+  }
+
+  .sm\:focus\:placeholder-purple-100:focus::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:focus\:placeholder-purple-100:focus::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:focus\:placeholder-purple-100:focus:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:focus\:placeholder-purple-100:focus::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .sm\:focus\:placeholder-purple-100:focus::placeholder {
+    color: #E4D9F9;
   }
 
   .sm\:focus\:placeholder-purple-300:focus::-webkit-input-placeholder {
@@ -11702,6 +11843,10 @@ video {
     color: #3E3E3E;
   }
 
+  .sm\:text-purple-100 {
+    color: #E4D9F9;
+  }
+
   .sm\:text-purple-300 {
     color: #372B7D;
   }
@@ -11742,6 +11887,10 @@ video {
     color: #3E3E3E;
   }
 
+  .sm\:hover\:text-purple-100:hover {
+    color: #E4D9F9;
+  }
+
   .sm\:hover\:text-purple-300:hover {
     color: #372B7D;
   }
@@ -11780,6 +11929,10 @@ video {
 
   .sm\:focus\:text-gray-900:focus {
     color: #3E3E3E;
+  }
+
+  .sm\:focus\:text-purple-100:focus {
+    color: #E4D9F9;
   }
 
   .sm\:focus\:text-purple-300:focus {
@@ -12558,6 +12711,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .md\:bg-purple-100 {
+    background-color: #E4D9F9;
+  }
+
   .md\:bg-purple-300 {
     background-color: #372B7D;
   }
@@ -12598,6 +12755,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .md\:hover\:bg-purple-100:hover {
+    background-color: #E4D9F9;
+  }
+
   .md\:hover\:bg-purple-300:hover {
     background-color: #372B7D;
   }
@@ -12636,6 +12797,10 @@ video {
 
   .md\:focus\:bg-gray-900:focus {
     background-color: #3E3E3E;
+  }
+
+  .md\:focus\:bg-purple-100:focus {
+    background-color: #E4D9F9;
   }
 
   .md\:focus\:bg-purple-300:focus {
@@ -12758,6 +12923,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .md\:border-purple-100 {
+    border-color: #E4D9F9;
+  }
+
   .md\:border-purple-300 {
     border-color: #372B7D;
   }
@@ -12798,6 +12967,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .md\:hover\:border-purple-100:hover {
+    border-color: #E4D9F9;
+  }
+
   .md\:hover\:border-purple-300:hover {
     border-color: #372B7D;
   }
@@ -12836,6 +13009,10 @@ video {
 
   .md\:focus\:border-gray-900:focus {
     border-color: #3E3E3E;
+  }
+
+  .md\:focus\:border-purple-100:focus {
+    border-color: #E4D9F9;
   }
 
   .md\:focus\:border-purple-300:focus {
@@ -13541,15 +13718,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Archivo, -apple-system, BlinkMacSystemFont;
   }
 
   .md\:font-hairline {
@@ -17008,6 +17177,26 @@ video {
     color: #3E3E3E;
   }
 
+  .md\:placeholder-purple-100::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:placeholder-purple-100::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:placeholder-purple-100:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:placeholder-purple-100::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:placeholder-purple-100::placeholder {
+    color: #E4D9F9;
+  }
+
   .md\:placeholder-purple-300::-webkit-input-placeholder {
     color: #372B7D;
   }
@@ -17206,6 +17395,26 @@ video {
 
   .md\:focus\:placeholder-gray-900:focus::placeholder {
     color: #3E3E3E;
+  }
+
+  .md\:focus\:placeholder-purple-100:focus::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:focus\:placeholder-purple-100:focus::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:focus\:placeholder-purple-100:focus:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:focus\:placeholder-purple-100:focus::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .md\:focus\:placeholder-purple-100:focus::placeholder {
+    color: #E4D9F9;
   }
 
   .md\:focus\:placeholder-purple-300:focus::-webkit-input-placeholder {
@@ -17567,6 +17776,10 @@ video {
     color: #3E3E3E;
   }
 
+  .md\:text-purple-100 {
+    color: #E4D9F9;
+  }
+
   .md\:text-purple-300 {
     color: #372B7D;
   }
@@ -17607,6 +17820,10 @@ video {
     color: #3E3E3E;
   }
 
+  .md\:hover\:text-purple-100:hover {
+    color: #E4D9F9;
+  }
+
   .md\:hover\:text-purple-300:hover {
     color: #372B7D;
   }
@@ -17645,6 +17862,10 @@ video {
 
   .md\:focus\:text-gray-900:focus {
     color: #3E3E3E;
+  }
+
+  .md\:focus\:text-purple-100:focus {
+    color: #E4D9F9;
   }
 
   .md\:focus\:text-purple-300:focus {
@@ -18423,6 +18644,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .lg\:bg-purple-100 {
+    background-color: #E4D9F9;
+  }
+
   .lg\:bg-purple-300 {
     background-color: #372B7D;
   }
@@ -18463,6 +18688,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .lg\:hover\:bg-purple-100:hover {
+    background-color: #E4D9F9;
+  }
+
   .lg\:hover\:bg-purple-300:hover {
     background-color: #372B7D;
   }
@@ -18501,6 +18730,10 @@ video {
 
   .lg\:focus\:bg-gray-900:focus {
     background-color: #3E3E3E;
+  }
+
+  .lg\:focus\:bg-purple-100:focus {
+    background-color: #E4D9F9;
   }
 
   .lg\:focus\:bg-purple-300:focus {
@@ -18623,6 +18856,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .lg\:border-purple-100 {
+    border-color: #E4D9F9;
+  }
+
   .lg\:border-purple-300 {
     border-color: #372B7D;
   }
@@ -18663,6 +18900,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .lg\:hover\:border-purple-100:hover {
+    border-color: #E4D9F9;
+  }
+
   .lg\:hover\:border-purple-300:hover {
     border-color: #372B7D;
   }
@@ -18701,6 +18942,10 @@ video {
 
   .lg\:focus\:border-gray-900:focus {
     border-color: #3E3E3E;
+  }
+
+  .lg\:focus\:border-purple-100:focus {
+    border-color: #E4D9F9;
   }
 
   .lg\:focus\:border-purple-300:focus {
@@ -19406,15 +19651,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Archivo, -apple-system, BlinkMacSystemFont;
   }
 
   .lg\:font-hairline {
@@ -22873,6 +23110,26 @@ video {
     color: #3E3E3E;
   }
 
+  .lg\:placeholder-purple-100::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:placeholder-purple-100::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:placeholder-purple-100:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:placeholder-purple-100::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:placeholder-purple-100::placeholder {
+    color: #E4D9F9;
+  }
+
   .lg\:placeholder-purple-300::-webkit-input-placeholder {
     color: #372B7D;
   }
@@ -23071,6 +23328,26 @@ video {
 
   .lg\:focus\:placeholder-gray-900:focus::placeholder {
     color: #3E3E3E;
+  }
+
+  .lg\:focus\:placeholder-purple-100:focus::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:focus\:placeholder-purple-100:focus::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:focus\:placeholder-purple-100:focus:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:focus\:placeholder-purple-100:focus::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .lg\:focus\:placeholder-purple-100:focus::placeholder {
+    color: #E4D9F9;
   }
 
   .lg\:focus\:placeholder-purple-300:focus::-webkit-input-placeholder {
@@ -23432,6 +23709,10 @@ video {
     color: #3E3E3E;
   }
 
+  .lg\:text-purple-100 {
+    color: #E4D9F9;
+  }
+
   .lg\:text-purple-300 {
     color: #372B7D;
   }
@@ -23472,6 +23753,10 @@ video {
     color: #3E3E3E;
   }
 
+  .lg\:hover\:text-purple-100:hover {
+    color: #E4D9F9;
+  }
+
   .lg\:hover\:text-purple-300:hover {
     color: #372B7D;
   }
@@ -23510,6 +23795,10 @@ video {
 
   .lg\:focus\:text-gray-900:focus {
     color: #3E3E3E;
+  }
+
+  .lg\:focus\:text-purple-100:focus {
+    color: #E4D9F9;
   }
 
   .lg\:focus\:text-purple-300:focus {
@@ -24288,6 +24577,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .xl\:bg-purple-100 {
+    background-color: #E4D9F9;
+  }
+
   .xl\:bg-purple-300 {
     background-color: #372B7D;
   }
@@ -24328,6 +24621,10 @@ video {
     background-color: #3E3E3E;
   }
 
+  .xl\:hover\:bg-purple-100:hover {
+    background-color: #E4D9F9;
+  }
+
   .xl\:hover\:bg-purple-300:hover {
     background-color: #372B7D;
   }
@@ -24366,6 +24663,10 @@ video {
 
   .xl\:focus\:bg-gray-900:focus {
     background-color: #3E3E3E;
+  }
+
+  .xl\:focus\:bg-purple-100:focus {
+    background-color: #E4D9F9;
   }
 
   .xl\:focus\:bg-purple-300:focus {
@@ -24488,6 +24789,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .xl\:border-purple-100 {
+    border-color: #E4D9F9;
+  }
+
   .xl\:border-purple-300 {
     border-color: #372B7D;
   }
@@ -24528,6 +24833,10 @@ video {
     border-color: #3E3E3E;
   }
 
+  .xl\:hover\:border-purple-100:hover {
+    border-color: #E4D9F9;
+  }
+
   .xl\:hover\:border-purple-300:hover {
     border-color: #372B7D;
   }
@@ -24566,6 +24875,10 @@ video {
 
   .xl\:focus\:border-gray-900:focus {
     border-color: #3E3E3E;
+  }
+
+  .xl\:focus\:border-purple-100:focus {
+    border-color: #E4D9F9;
   }
 
   .xl\:focus\:border-purple-300:focus {
@@ -25271,15 +25584,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Archivo, -apple-system, BlinkMacSystemFont;
   }
 
   .xl\:font-hairline {
@@ -28738,6 +29043,26 @@ video {
     color: #3E3E3E;
   }
 
+  .xl\:placeholder-purple-100::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:placeholder-purple-100::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:placeholder-purple-100:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:placeholder-purple-100::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:placeholder-purple-100::placeholder {
+    color: #E4D9F9;
+  }
+
   .xl\:placeholder-purple-300::-webkit-input-placeholder {
     color: #372B7D;
   }
@@ -28936,6 +29261,26 @@ video {
 
   .xl\:focus\:placeholder-gray-900:focus::placeholder {
     color: #3E3E3E;
+  }
+
+  .xl\:focus\:placeholder-purple-100:focus::-webkit-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:focus\:placeholder-purple-100:focus::-moz-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:focus\:placeholder-purple-100:focus:-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:focus\:placeholder-purple-100:focus::-ms-input-placeholder {
+    color: #E4D9F9;
+  }
+
+  .xl\:focus\:placeholder-purple-100:focus::placeholder {
+    color: #E4D9F9;
   }
 
   .xl\:focus\:placeholder-purple-300:focus::-webkit-input-placeholder {
@@ -29297,6 +29642,10 @@ video {
     color: #3E3E3E;
   }
 
+  .xl\:text-purple-100 {
+    color: #E4D9F9;
+  }
+
   .xl\:text-purple-300 {
     color: #372B7D;
   }
@@ -29337,6 +29686,10 @@ video {
     color: #3E3E3E;
   }
 
+  .xl\:hover\:text-purple-100:hover {
+    color: #E4D9F9;
+  }
+
   .xl\:hover\:text-purple-300:hover {
     color: #372B7D;
   }
@@ -29375,6 +29728,10 @@ video {
 
   .xl\:focus\:text-gray-900:focus {
     color: #3E3E3E;
+  }
+
+  .xl\:focus\:text-purple-100:focus {
+    color: #E4D9F9;
   }
 
   .xl\:focus\:text-purple-300:focus {

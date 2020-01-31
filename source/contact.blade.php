@@ -4,44 +4,33 @@
 
 <div class="container">
     <div class="row items-center mb-20">
-        <div class="lg:col-4 ">
-            <h1 class="text-6xl text-purple-500 font-bold">Feel free to contact us</h1>
+        <div class="md:col-6 lg:col-4">
+            <h1 class="text-2xl lg:text-5xl text-purple-500 font-bold">Feel free to contact us</h1>
         </div>
-        <div class="col-7 offset-1">
+        <div class="order-first mb-10 col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
             @include('_partials/contact-svg')
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row justify-between">
-        <div class="col-4">
-            <h2 class="font-bold text-5xl text-purple-500">Our office </h2>
+        <div class="md:col-4 lg:col-4 mb-16 md:mb-0">
+            <h2 class="text-2xl lg:text-5xl text-purple-500 font-bold">Our office</h2>
 
+            @foreach($page->contact as $contact)
             <div class="flex flex-row items-center">
-                <img src="/assets/images/location-img.png" alt="location">
-                <p class="py-8 font-medium text-gray-500 text-sm ml-5"> Major Cede Filiposki 158, Gostivar 1230,
-                    <br> Republic of N. Macedonia
+                <img class="w-10 h-10" src="{{ $contact->icon }}" srcset="{{ $contact->icon_lg }}" alt="">
+                <p class="py-8 font-medium text-gray-500 text-sm ml-5">
+                    {!! $contact->name !!}
                 </p>
             </div>
+            @endforeach
 
-            <div class="flex flex-row items-center">
-                <img src="/assets/images/clock-img.png" alt="location">
-                <p class="py-8 font-medium text-gray-500 text-sm ml-5"> Major Cede Filiposki 158, Gostivar 1230,
-                    <br> Republic of N. Macedonia
-                </p>
-            </div>
-
-            <div class="flex flex-row items-center">
-                <img src="/assets/images/mail-img.png" alt="location">
-                <p class="py-8 font-medium text-gray-500 text-sm ml-5"> Major Cede Filiposki 158, Gostivar 1230,
-                    <br> Republic of N. Macedonia
-                </p>
-            </div>
         </div>
-        <div class="col-7">
+        <div class="mb-16 md:mb-0 md:col-8 lg:col-6">
             <div class="bg-purple-500 rounded-xl">
-                <div class="flex flex-col justify-center px-16">
-                    <h2 class="mb-6 mt-16 font-bold text-2xl text-yellow-500">Send us a message</h2>
+                <div class="flex flex-col justify-center px-10 md:px-16">
+                    <h2 class="mb-6 mt-16 font-bold text-xl md:text-2xl text-yellow-500">Send us a message</h2>
                     <input
                         class="mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
                         type="text" placeholder="Name" name="name" />

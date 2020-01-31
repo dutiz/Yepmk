@@ -24,22 +24,22 @@
                 <p>yepmk2015@gmail.com<br>+389 70 692 549</p>
             </div>
         </div>
-        <div class="row md:justify-between pb-10 mt-32">
+        <div class="row md:justify-between pb-10 mt-16 md:mt-20 lg:mt-32">
             <div class="text-center md:col-6 md:text-left">
                 <p class="text-base text-white">© 2019 YEP. All Rights Reserved</p>
             </div>
             <div class="order-first mb-10 md:mb-0 md:order-none md:col-6 flex flex-row justify-center md:justify-end">
                 <a class="mr-8" href="https://www.facebook.com/YEPmk/" target="_blank">
-                    <img src="/assets/images/facebook.png" title="Facebook" alt="Facebook">
+                    @include('_partials.icon', ['name' => 'facebook', 'class' => 'w-8 h-8 text-yellow-500'])
                 </a>
                 <a class="mr-8" href="http://www.instagram.com/yep.mk" target="_blank">
-                    <img src="/assets/images/instagram.png" alt="instagram">
+                    @include('_partials.icon', ['name' => 'instagram', 'class' => 'w-8 h-8 text-yellow-500'])
                 </a>
                 <a class="mr-8" href="https://www.youtube.com/channel/UCftepR6yOGtMu5ysdET73SA" target="_blank">
-                    <img src="/assets/images/youtube.png" alt="youtube">
+                    @include('_partials.icon', ['name' => 'youtube', 'class' => 'w-8 h-8 text-yellow-500'])
                 </a>
                 <a href="https://www.linkedin.com/company/yepmk" target="_blank">
-                    <img src="/assets/images/linkedin.png" alt="linkedin">
+                    @include('_partials.icon', ['name' => 'linkedin', 'class' => 'w-8 h-8 text-yellow-500'])
                 </a>
             </div>
         </div>

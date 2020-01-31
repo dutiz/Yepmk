@@ -4,7 +4,7 @@
 
 <div class="container my-20">
     <div class="row items-center">
-        <div class="lg:col-4">
+        <div class="md:col-6 lg:col-4">
             <h1 class="text-5xl text-purple-500 font-bold">Our projects</h1>
             <p class="lg:mt-4 text-sm text-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna odio tristique eget sed. At nunc, velit
@@ -13,15 +13,15 @@
                 Condimentum elit nulla cras in feugiat proin faucibus. Odio leo turpis facilisis praesent. Adipiscing
                 quam facilisis magnis elit. Velit orci gravida egestas odio at duis nec cras.</p>
         </div>
-        <div class="col-7 offset-1">
+        <div class="order-first mb-10 col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
             @include('_partials.project-svg')
         </div>
     </div>
 </div>
-<div class="container my-48">
-    <div class="row flex-wrap">
+<div class="container my-20 lg:my-48">
+    <div class="row">
         @foreach($projects as $project)
-        <div class="col-4 mt-8">
+        <div class="col-12 md:col-8 lg:col-4 mt-8">
             <a href="{{ $project->getUrl() }}">
                 <div style="border-radius: 25px; min-height: 392px; background-image: url('{{ $project->cover }}')"
                     class="transition bg-cover bg-center bg-no-repeat overflow-hidden flex items-end hover:shadow-outline">

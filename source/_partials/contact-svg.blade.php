@@ -1,4 +1,4 @@
-<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg"
+<svg class="fill-current w-full h-auto" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect width="640" height="640" fill="url(#pattern0)" />
     <defs>

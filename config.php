@@ -6,17 +6,20 @@ return [
     'values' => [
         [
             'title' => 'Mission',
-            'image' => '/assets/images/mission.png',
+            'image' => '/assets/images/icons/mission.png',
+            'image_lg' => '/assets/images/icons/mission@2x.png',
             'desc' => 'Encouraging youth empowerment and potential fulfillment through different activities',
         ],
         [
             'title' => 'Vision',
-            'image' => '/assets/images/vision.png',
+            'image' => '/assets/images/icons/vision.png',
+            'image_lg' => '/assets/images/icons/vision@2x.png',
             'desc' => 'Intellectually Empowered Youth',
         ],
         [
             'title' => 'Goal',
-            'image' => '/assets/images/goal.png',
+            'image' => '/assets/images/icons/goal.png',
+            'image_lg' => '/assets/images/icons/goal@2x.png',
             'desc' => 'Lorem ipsum dolore sit amet',
         ],
     ],
@@ -60,6 +63,34 @@ return [
             'alt' => 'USAID',
         ],
     ],
+    'contact' => [
+        [
+            'icon' => '/assets/images/icons/location.png',
+            'icon_lg' => '/assets/images/icons/location@2x.png',
+            'name' => 'Major Cede Filiposki 158, <br>  Gostivar 1230, <br> Republic of N. Macedonia',
+        ],
+        [
+            'icon' => '/assets/images/icons/time.png',
+            'icon_lg' => '/assets/images/icons/time@2x.png',
+            'name' => 'Monday - Saturday: <br> 10:00 - 18:00',
+        ],
+        [
+            'icon' => '/assets/images/icons/phone.png',
+            'icon_lg' => '/assets/images/icons/phone@2x.png',
+            'name' => '+389 70 692 549',
+        ],
+        [
+            'icon' => '/assets/images/icons/mail.png',
+            'icon_lg' => '/assets/images/icons/mail@2x.png',
+            'name' => 'yepmk2015@gmail.com',
+        ],
+    ],
+    'getStartDate' => function ($page) {
+        return Datetime::createFromFormat('Y-m-d', $page->start_date)->format('F j, Y');
+    },
+    'getEndDate' => function ($page) {
+        return Datetime::createFromFormat('Y-m-d', $page->end_date)->format('F j, Y');
+    },
     'collections' => [
         'projects' => [
             'path' => 'projects/{filename}',

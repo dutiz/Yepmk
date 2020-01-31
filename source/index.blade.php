@@ -29,10 +29,11 @@
         @foreach ($page->values as $values)
         <div class="col-12 lg:col-4 mb-10 lg:mb-0">
             <div class="flex flex-col items-center text-center py-10">
-                <img src="/assets/images/mission.png" style="height:180px;" class="w-auto" alt="">
-                <h2 class="my-4 text-purple-500 font-bold text-2xl">Mission</h2>
-                <p class="text-xs">Encouraging youth empowerment and potential fulfillment through different
-                    activities
+                <img src="{{ $values->image }}" srcset="{{ $values->image_lg }}" style="height:180px;" class="w-auto"
+                    alt="">
+                <h2 class="my-4 text-purple-500 font-bold text-2xl">{{ $values->title }}</h2>
+                <p class="text-xs">
+                    {{ $values->desc }}
                 </p>
             </div>
         </div>
@@ -55,7 +56,7 @@
             <div class="col-6 lg:col-8 mt-20">
                 <div class="bg-purple-500 rounded-xl flex flex-col lg:flex-row justify-between items-center px-6 py-4">
                     @foreach($page->impact as $impact)
-                    <div class="flex flex-col text-center mb-8 last:mb-0">
+                    <div class="flex flex-col text-center mb-8 lg:mb-0 last:mb-0">
                         <h2 class="text-white font-bold text-2xl md:text-6xl leading-none">{{ $impact->number }}</h2>
                         <p class="text-xs text-yellow-500 font-medium">{{ $impact->title }}</p>
                     </div>
